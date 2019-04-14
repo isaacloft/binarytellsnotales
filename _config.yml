@@ -9,7 +9,7 @@ description: A blog for technical solutions and gotchas
 keywords: Fullstack development
 author: Isaac Guan
 language: English
-timezone: AEST
+#timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
