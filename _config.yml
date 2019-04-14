@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: heroku
-  repo: https://github.com/isaacloft/bout-code.git
+  repo: https://git.heroku.com/bout-code.git
 
 
 # Generate categories from directory-tree
