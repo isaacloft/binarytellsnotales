@@ -8,7 +8,7 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
- this.page.url = '<%= config.url + '/' + post.canonical_path %>';
+    this.page.url = '<%= config.url + '/' + post.canonical_path %>';
     this.page.identifier = '<%= post.id || post.canonical_path %>';
     this.page.title = '<%= post.title %>';
 };
