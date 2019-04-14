@@ -157,7 +157,7 @@ links_layout: block
 #avatar: /images/avatar.gif
 
 # Avatar
-avatar: /images/avatar.jpg
+avatar: /images/avatar.gif
 
 # Table Of Contents in the Sidebar
 toc:
@@ -365,7 +365,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: bout-code.disqus.com
+  shortname: bout-code
   count: true
 
 # Hypercomments
