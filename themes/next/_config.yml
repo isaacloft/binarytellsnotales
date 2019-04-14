@@ -156,6 +156,9 @@ links_layout: block
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
 
+# Avatar
+avatar: /images/avatar.jpg
+
 # Table Of Contents in the Sidebar
 toc:
   enable: true
@@ -362,7 +365,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: bout-code-1.disqus.com
+  shortname: bout-code.disqus.com
   count: true
 
 # Hypercomments

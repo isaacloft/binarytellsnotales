@@ -4,12 +4,12 @@
 
 # Site
 title: Bout-Code
-subtitle:
-description:
+subtitle: More than programming
+description: A blog for technical solutions and gotchas
 keywords: Fullstack development
 author: Isaac Guan
 language: English
-timezone:
+timezone: AEST
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

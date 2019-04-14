@@ -6,7 +6,11 @@
     <i class="fa fa-{{ theme.footer.icon }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>
-
+  |
+  <span><a  href="https://www.linkedin.com/in/isaacguanloft/" target="_blank"><i class="fa fa-linkedin"></i></a></span>
+  |
+ <span><a href="https://github.com/isaacloft" target="_blank"><i class="fa fa-github"></i></a></span>
+ |
   {% if theme.post_wordcount.totalcount %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
