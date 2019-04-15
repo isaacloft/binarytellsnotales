@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Bout-Code
-subtitle: More than programming
+title: Binary Tells No Tales
+subtitle:  Developer, mix those with imagination and release unique narratives
 description: A blog for technical solutions and gotchas
 keywords: Fullstack development
 author: Isaac Guan
@@ -13,7 +13,7 @@ language: English
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://bout-code.herokuapp.com
+url: http://binarytellsnotales.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -35,7 +35,7 @@ titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -78,9 +78,11 @@ theme: next-new
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: heroku
-  repo: https://git.heroku.com/bout-code.git
-
+ # type: heroku
+  #repo: https://git.heroku.com/bout-code.git
+ type: git
+ repo: https://github.com/isaacloft/isaacloft.github.io.git
+ branch: master
 
 # Generate categories from directory-tree
 # Dependencies: https://github.com/xu-song/hexo-auto-category
