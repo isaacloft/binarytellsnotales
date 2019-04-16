@@ -2,6 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 tags:
+categories: 
 ---
 
 ## Header
@@ -15,5 +16,3 @@ Write code sample in here
 
 
 <!--more-->
-
-More info: [Writing](https://hexo.io/docs/writing.html)
