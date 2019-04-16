@@ -108,5 +108,10 @@ What we need to do is below
 
 If you see any error messages, it's possibly caused by DNS delay, which may take up to 24 hours to be reflected.
 
+<b>Update!!</b>
+The github page custom domain would be reset after each deployment, the solution is to include a CNAME file <b>inside</b>
+your <b>soruce</b> folder.
+
+github [issue](https://github.com/hexojs/hexo-deployer-git/issues/87)
 ## I guess this is it for now, if any question or feedback, please feel free to leave a comment.
     
