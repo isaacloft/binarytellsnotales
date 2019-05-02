@@ -5,15 +5,15 @@ tags: tools
 categories: tooling
 ---
 
-## With VSCode, intergrate stylelint is super easy, just follow steps below and you're all set.
+#### With VSCode, intergrate stylelint is super easy, just follow steps below and you're all set.
 
 
-### Install vscode extensions
+#### Install vscode extensions
 There are two required vscode extensions:
 1. prettier
 2. stylelint
 
-### Install packages
+#### Install packages
 Choose your favorite package manager and install dependecies like below
 [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)
 [prettier-stylelint](https://www.npmjs.com/package/prettier-stylelint)
@@ -26,7 +26,7 @@ stylelint-config-standard is just one of many stylint configurations, you can us
 
 <!--more-->
 
-### Create .stylelintrc and .prettierrc files at the root of your project
+#### Create .stylelintrc and .prettierrc files at the root of your project
 
 .stylelintrc file should look at least like this
 ```bash
@@ -48,7 +48,7 @@ stylelint-config-standard is just one of many stylint configurations, you can us
 You can leave as an empty object or define more personal settings in here, your vscode prettier extension is going to pick those
 up and use with stylelint configurations.
 
-### Update your vscode extension settings 
+#### Update your vscode extension settings 
 
 1. Go to your vscode setting and navigate to text-editor section and click on formatting, then tick format on save option.
 {% asset_img format-on-save.jpg This is an example image %}
@@ -59,7 +59,7 @@ Scroll down the settings and find this option and tick.
 
 This should be it! Go mess up one css or scss file and save it, you should see the file being formatted on saving.
 
-### Before wrap it up
+#### Before wrap it up
 It would be nice for us to setup a script to format all existing files.
 
 Add script to your package.json
@@ -81,7 +81,7 @@ $ yarn fix-styles // or npm fix-styles
 You should have all your css and scss files formatted.
 
 
-### Optional but useful
+#### Optional but useful
 It's likely that you have third party styling files inside your project, and you may not need to format these.
 We can set up rules to ignore them. There are two options:
 1. In your .stylelintrc add ignoreFiles

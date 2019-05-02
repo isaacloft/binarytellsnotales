@@ -5,7 +5,7 @@ tags: [frontend, accessibility]
 categories: frontend
 ---
 
-## This article is more of a FYI for myself as the google doc is very thorough.
+#### This article is more of a FYI for myself as the google doc is very thorough.
 
 <i>"Animation on the web
 Animation is oftentimes used to provide feedback to the user .......  there are decorative effects like animated gradients, parallax scrolling, background videos, and several others. While many users enjoy such animations, some users dislike them because they feel distracted or slowed down from them. In the worst case, users may even suffer from motion sickness as if it were a real life experience, so for these users reducing animations is a medical necessity." <i>

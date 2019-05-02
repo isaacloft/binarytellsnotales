@@ -6,12 +6,12 @@ categories: frontend
 ---
 
 
-## Chainable BEM Modifier for SCSS
+#### Chainable BEM Modifier for SCSS
 
 Disclaimer: All following information is coming from Jordan Lewis's [post](https://webuild.envato.com/blog/chainable-bem-modifiers/)
 I just happened to use this style of writting scss code to make my life little bit easier.
 
-### Some information about BEM syntax
+#### Some information about BEM syntax
 [BEM](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 ``` bash
 block__element--modifier
@@ -25,7 +25,7 @@ for example:
 .site-search__field {} /* Element */
 .site-search--full {} /* Modifier */
 ```
-### With Chainable BEM Modifier, it's just easier and prettier to write and understand
+#### With Chainable BEM Modifier, it's just easier and prettier to write and understand
 
 The general format of C-BEM-Modifier is:
 ```bash

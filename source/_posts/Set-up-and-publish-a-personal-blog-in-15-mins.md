@@ -5,7 +5,7 @@ tags: hexo
 categories: tools
 ---
 
-## First blog isn't about a touching tale
+#### First blog isn't about a touching tale
 I'd just like to share the steps I've taken to set up this simple but very handy personal blog. 
 
 There is going to be three main sections of this blog
@@ -15,7 +15,7 @@ There is going to be three main sections of this blog
 
 <!--more-->
 
-### Build blog with Hexo
+#### Build blog with Hexo
 Hexo has a very no BS [documentation](https://hexo.io/docs/), but maybe I just make it simpler for you.
 
 1. Install Node.js and Git if you have not, and make sure the version of the node is later than v6.9

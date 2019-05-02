@@ -5,7 +5,7 @@ tags: [eslint, prettier, vscode, powershell]
 categories: frontend
 ---
 
-## prettier-eslint and prettier-stylelint work inside bash and zsh, not in powershell or cmd
+#### prettier-eslint and prettier-stylelint work inside bash and zsh, not in powershell or cmd
 
 Long story short, I've set up eslint and stylelint for one project weeks back and everything ran perfectly on MACs, until we ran it inside powershell and cmd, it output nothing. It almost felt like no file is to be formatted.
 
